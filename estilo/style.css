@@ -36,11 +36,17 @@ a.externo::after {
 }
 
 body {
+    min-width: 280px;
+    max-width: 1000px;
+    margin: auto;
     background-color: var(--cor0);
     font-family: var(--fonte-padrao);
 }
 
 header {
+    min-width: 280px;
+    max-width: 1000px;
+    margin: auto;
     background-image: linear-gradient(to bottom, #2fa866, #063d1e);
     min-height: 150px;
     text-align: center;
@@ -69,6 +75,9 @@ header > p {
 }
 
 nav {
+    min-width: 280px;
+    max-width: 1000px;
+    margin: auto;
     background-color: var(--cor5);
     padding: 10px;
 }
